@@ -6,13 +6,13 @@
 
 let n1,n2,media
 
-n1=parseInt(prompt("Digite a nota da primeira avaliação"))
-n2=parseInt(prompt("Digite a nota da segunda avaliação"))
+n1=parseInt(prompt("Digite a nota da primeira avaliação: "))
+n2=parseInt(prompt("Digite a nota da segunda avaliação: "))
 
 media=(n1+n2)/2
 
 if (media>=6) {
-    alert("O aluno foi aprovado com a mádia: "+media)    
+    alert("O aluno foi aprovado com a média: "+media)    
 }else{
-    alert("O aluno foi reprovado com a mádia: "+media)  
+    alert("O aluno foi reprovado com a média: "+media)  
 }
